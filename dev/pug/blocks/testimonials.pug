@@ -2,24 +2,25 @@ mixin testimonials()
 	section#testimonials.common-section
 		.container
 			header.common-section__header
-				h2 Testimonials
+				h2 Presentations
 				p Aenean sagittis, turpis ac fermentum elementum, lorem urna lobortis eros, nec ultrices sem tortor sit amet elit
 			.grid-container
 				ul.testimonials
 					li.testimonials__item
 						img(src="static/images/logos/placeholder.png" alt="Lorem ipsum dolor sit amet")
 						blockquote
-							p.icon.icon_ql Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer blandit orci est, id ultrices neque pretium quis. Quisque ut tortor eros. Curabitur id pellentesque dolor. Vivamus eu ullamcorper dolor, sit amet fringilla justo. Sed id eros interdum, ullamcorper diam ut, maximus lectus. Donec dapibus libero a euismod rutrum. Praesent at est ipsum.
+							p.icon.icon_ql Historically, implementing network security controls within a virtualized cloud environment have been difficult to implement requiring tricky networking and hypervisor integration. Advancements in software-defined networking (SDN) now allow virtualized security controls to be implemented within virtual layer 2 (media link) network reducing the complexity. Through the use of SDN defined service chains, network traffic can be required to flow through security controls allowing policy to be implemented within the virtual network itself. This presentation illustrates how common security functions (such as Snort) can be virtualized and injected within layer 2 of a virtual network without requiring any layer 3 (IP) networking changes.
+
 							cite
-								span.name Giles Posture,
-								span.role  CompanyName
+								span.name AppSec California 2018
+								span.role  OWASP
 					li.testimonials__item
 						img(src="static/images/logos/placeholder.png" alt="Lorem ipsum dolor sit amet")
 						blockquote
-							p.icon.icon_ql In imperdiet odio metus, at ultricies tellus posuere at. Sed tempor ipsum a rhoncus tempor. Praesent orci massa, congue ut sapien ac, commodo lobortis massa. Nam ultricies hendrerit arcu, quis lacinia metus dictum eget. Praesent eu nisi sapien. Proin posuere nec lacus vitae vehicula. Curabitur accumsan nulla ut velit facilisis, eu ultricies ligula tristique
+							p.icon.icon_ql Advancements in software-defined networking (SDN) allow virtualized security controls within a virtual layer 2 (media link) network. A service chain defines what controls traffic must pass through before being delivered to the service. For example, a web service would have a service chain requiring the traffic pass through a DDoS filter, WAF, load balancing, and IDS/IPS before being delivered to the web server. Historically this has been done at layer 3 (IP), requiring IP address changes as chain components are added or removed. Implementing this within a virtual network at layer 2, chains can be dynamically updated without requiring any IP changes. Implementing these chains within layer 2 reduces complexity and network overhead.
 							cite
-								span.name Sue Shei,
-								span.role  CompanyName
+								span.name Build Better Defences
+								span.role  O'Reilly Security
 
 					li.testimonials__item
 						img(src="static/images/logos/placeholder.png" alt="Lorem ipsum dolor sit amet")
